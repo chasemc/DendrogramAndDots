@@ -1,0 +1,4 @@
+"0","library(""tidyverse"")"
+"0","library(""dendextend"")"
+"0","dend<-readRDS(""Data/Distance-cosineD_Clustering-ward.D2_UsedPresenceAbsence_SNR-4_PercentPresence-70_LowCut-3000_HighCut-15000.rds"")"
+"0","dend<-dend %>% set(""labels_cex"", .02)"

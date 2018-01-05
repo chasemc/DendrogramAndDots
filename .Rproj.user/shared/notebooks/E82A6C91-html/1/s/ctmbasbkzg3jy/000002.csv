@@ -1,0 +1,5 @@
+"0","dendrogramLabels<-as_tibble(labels(dend))"
+"0","names(dendrogramLabels)<-'Sample name'"
+"0","joinedData<-left_join(dendrogramLabels,groupFile,by=""Sample name"")"
+"0","naReplaceValues<-as.list(sapply(names(joinedData),function(x)paste0(""Missing "",x)))"
+"0","joinedData<-joinedData %>%  replace_na(replace=naReplaceValues)"

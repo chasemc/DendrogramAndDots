@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1515096094670.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1754687369",
+    "id" : "2CFA6395",
+    "lastKnownWriteTime" : 1515112492,
+    "last_content_update" : 1515112492958,
+    "path" : "~/Documents/GitHub/DendrogramAndDots/R/colored_Dots.R",
+    "project_path" : "R/colored_Dots.R",
+    "properties" : {
+        "cursorPosition" : "148,20",
+        "scrollLine" : "144"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
