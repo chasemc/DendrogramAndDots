@@ -2,6 +2,7 @@
 title: "Dendrogram and Dots: Figuring it Out"
 author: "Chase Clark"
 date: "January 4, 2018"
+runtime: shiny
 output: html_document
 ---
 
@@ -17,7 +18,9 @@ library("dendextend")
 
 dend<-readRDS("Data/Distance-cosineD_Clustering-ward.D2_UsedPresenceAbsence_SNR-4_PercentPresence-70_LowCut-3000_HighCut-15000.rds")
 
-dend<-dend %>% set("labels_color", "white")
+# dend<-dend %>% set("labels_color", "white")
+
+dend<-dend %>% set("labels_cex", .65)
 
 ```
 
@@ -38,7 +41,7 @@ need to simulate input
 ```{r}
 input<-as_tibble(t(names(groupFile))) 
 names(input)<-names(groupFile)
-input$`Media type`
+
 
 
 ```
@@ -53,11 +56,15 @@ naReplaceValues<-as.list(sapply(names(joinedData),function(x)paste0("Missing ",x
 
 joinedData<-joinedData %>%  replace_na(replace=naReplaceValues)
 
+colsel<-'Treatment'
 
-small<-joinedData[,c(1,3)]
-w<-small %>% group_by(`Sample type 1`)
+small<-bind_cols(joinedData[,1],joinedData[colsel])
 
-groupedList<-split(small,factor(small$`Sample type 1`))
+
+
+#w<-small %>% group_by(.dots=paste0(colsel))
+
+groupedList<-split(small,factor(small[colsel][[1]]))
 
 bigList<-lapply(1:length(groupedList),function(x)left_join(dendrogramLabels,groupedList[[x]],by='Sample name'))
 
@@ -65,10 +72,9 @@ labels(bigList)<-labels(groupedList)
 
 
 
-
 for(x in 1:length(bigList)){
-    bigList[[x]]$`Sample type 1`[!is.na(bigList[[x]]$`Sample type 1`)]<-"#000000"
-    bigList[[x]]$`Sample type 1`[is.na(bigList[[x]]$`Sample type 1`)]<-"#00000000"
+    bigList[[x]][colsel][!is.na(bigList[[x]][colsel])]<-"#000000"
+    bigList[[x]][colsel][is.na(bigList[[x]][colsel])]<-"#00000000"
 }
 
 
@@ -84,26 +90,80 @@ These are associated to the entire dendrogram, by label and are in the same orde
 #00000000 is black but transparent   in case we want color supprt later
 
 
-
-
 ```{r}
+bigMatrix<-NULL
+for (i in 1:length(bigList)){
+    bigMatrix<-bind_cols(bigMatrix,bigList[[i]][,2])}
 
-
-par(mar = c(8,8,8,25))
-plot(dend,horiz=T)
-
-
-colored_dots(cbind(bigList$algae$`Sample type 1`), dend,
-             rowLabels = c("3 clusters", "2 clusters", "Odd numbers"),horiz=T) 
-
-
-
-
+names(bigMatrix)<-names(bigList)
 
 ```
 
 
 
+The below chunk will only run when the rmd file is run with R (won't work if viewing static html).
 
 
 
+
+
+
+
+
+```{r, echo = FALSE}
+shinyApp(
+  
+  ui = fluidPage(
+        numericInput("hclustHeight", label = h5("Expand Tree"),value = 5000,step=50,min=100),
+      mainPanel("Hierarchical Clustering",plotOutput("netheir"))        
+  ),
+  server = function(input, output) {
+   plotHeight <- reactive({
+    return(as.numeric(input$hclustHeight))
+  })
+  output$netheir <- renderPlot(execOnResize = FALSE,{
+    par(mar = c(8,8,8,25))
+
+  plot(dend,horiz=T)
+    
+colored_dots(bigMatrix, dend,
+         rowLabels = names(bigMatrix),horiz=T) 
+
+    
+},height=plotHeight)
+  },
+  
+    options = list(height = 5000)
+
+  )
+  
+  
+```
+
+
+
+
+.
+.
+.
+.
+
+.
+.
+
+.
+
+.
+
+.
+.
+
+.
+
+.
+
+.
+
+.
+
+.
