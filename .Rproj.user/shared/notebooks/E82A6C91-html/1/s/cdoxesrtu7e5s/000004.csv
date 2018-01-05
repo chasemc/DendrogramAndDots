@@ -1,2 +1,2 @@
-"0","colored_dots(cbind(bigShit$algae$`Sample type 1`), dend,"
-"0","             rowLabels = c(""3 clusters"", ""2 clusters"", ""Odd numbers""),horiz=T) "
+"0","par(mar = c(8,8,8,25))"
+"0","plot(dend,horiz=T)"
