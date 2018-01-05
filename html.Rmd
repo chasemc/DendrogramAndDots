@@ -57,18 +57,18 @@ joinedData<-joinedData %>%  replace_na(replace=naReplaceValues)
 small<-joinedData[,c(1,3)]
 w<-small %>% group_by(`Sample type 1`)
 
-ohShitList<-split(small,factor(small$`Sample type 1`))
+groupedList<-split(small,factor(small$`Sample type 1`))
 
-bigShit<-lapply(1:length(ohShitList),function(x)left_join(dendrogramLabels,ohShitList[[x]],by='Sample name'))
+bigList<-lapply(1:length(groupedList),function(x)left_join(dendrogramLabels,groupedList[[x]],by='Sample name'))
 
-labels(bigShit)<-labels(ohShitList)
-
-
+labels(bigList)<-labels(groupedList)
 
 
-for(x in 1:length(bigShit)){
-    bigShit[[x]]$`Sample type 1`[!is.na(bigShit[[x]]$`Sample type 1`)]<-"#000000"
-    bigShit[[x]]$`Sample type 1`[is.na(bigShit[[x]]$`Sample type 1`)]<-"#00000000"
+
+
+for(x in 1:length(bigList)){
+    bigList[[x]]$`Sample type 1`[!is.na(bigList[[x]]$`Sample type 1`)]<-"#000000"
+    bigList[[x]]$`Sample type 1`[is.na(bigList[[x]]$`Sample type 1`)]<-"#00000000"
 }
 
 
@@ -93,7 +93,7 @@ par(mar = c(8,8,8,25))
 plot(dend,horiz=T)
 
 
-colored_dots(cbind(bigShit$algae$`Sample type 1`), dend,
+colored_dots(cbind(bigList$algae$`Sample type 1`), dend,
              rowLabels = c("3 clusters", "2 clusters", "Odd numbers"),horiz=T) 
 
 
