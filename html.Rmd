@@ -96,7 +96,7 @@ plot(dend,horiz=T)
 colored_dots(cbind(bigList$algae$`Sample type 1`), dend,
              rowLabels = c("3 clusters", "2 clusters", "Odd numbers"),horiz=T) 
 
-
+a
 
 
 
