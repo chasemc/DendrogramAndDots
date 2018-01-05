@@ -3,7 +3,7 @@ title: "Dendrogram and Dots: Figuring it Out"
 author: "Chase Clark"
 date: "January 4, 2018"
 runtime: shiny
-output: html_document
+output: markDown
 ---
 
 ```{r setup, include=FALSE}
