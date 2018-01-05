@@ -2,6 +2,7 @@
 title: "Dendrogram and Dots: Figuring it Out"
 author: "Chase Clark"
 date: "January 4, 2018"
+runtime: shiny
 output: html_document
 ---
 
@@ -85,8 +86,8 @@ These are associated to the entire dendrogram, by label and are in the same orde
 0 means a label is not part of the group, 1 means it is part of the group
 
 
-/#000000  is black
-/#00000000 is black but transparent   in case we want color supprt later
+#000000  is black
+#00000000 is black but transparent   in case we want color supprt later
 
 
 ```{r}
@@ -109,19 +110,60 @@ The below chunk will only run when the rmd file is run with R (won't work if vie
 
 
 
-```{r,fig.height=50}
-
+```{r}
+shinyApp(
+  
+  ui = fluidPage(
+        numericInput("hclustHeight", label = h5("Expand Tree"),value = 5000,step=50,min=100),
+      mainPanel("Hierarchical Clustering",plotOutput("netheir"))        
+  ),
+  server = function(input, output) {
+   plotHeight <- reactive({
+    return(as.numeric(input$hclustHeight))
+  })
+  output$netheir <- renderPlot(execOnResize = FALSE,{
     par(mar = c(8,8,8,25))
 
-    plot(dend,horiz=T)
+  plot(dend,horiz=T)
     
-    colored_dots(bigMatrix, dend,
+colored_dots(bigMatrix, dend,
          rowLabels = names(bigMatrix),horiz=T) 
 
     
-    
+},height=plotHeight)
+  },
+  
+    options = list(height = 5000)
+
+  )
   
   
 ```
 
 
+
+
+.
+.
+.
+.
+
+.
+.
+
+.
+
+.
+
+.
+.
+
+.
+
+.
+
+.
+
+.
+
+.
