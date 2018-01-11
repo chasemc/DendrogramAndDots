@@ -124,7 +124,7 @@ shinyApp(
   output$netheir <- renderPlot(execOnResize = FALSE,{
     par(mar = c(8,8,8,25))
 
-  plot(dend,horiz=T)
+circlize_dendrogram(dend)
     
 colored_dots(bigMatrix, dend,
          rowLabels = names(bigMatrix),horiz=T) 
@@ -143,27 +143,7 @@ colored_dots(bigMatrix, dend,
 
 
 
-.
-.
-.
-.
 
-.
-.
+plot(hclust(b),horiz=TRUE)
 
-.
 
-.
-
-.
-.
-
-.
-
-.
-
-.
-
-.
-
-.

@@ -5,7 +5,7 @@
 
 colored_dots<-function (colors, dend, rowLabels = NULL, cex.rowLabels = 0.9,
                   add = TRUE, y_scale, y_shift, text_shift = 1, sort_by_labels_order = TRUE,
-                  horiz = FALSE, alf=1,...)
+                  horiz = FALSE, alf=1,circ=FALSE,...)
 {
 
   # Same as colored_bars.R, except with circle representation for each point
@@ -136,6 +136,14 @@ colored_dots<-function (colors, dend, rowLabels = NULL, cex.rowLabels = 0.9,
       yb <- yb * y_scale + y_shift
       yt <- yt * y_scale + y_shift
     }
+
+
+
+
+    yb <<-yb
+    yt  <<-yt
+    xl  <<-xl
+    xr <<-xr
     if (horiz) {
       #rect(-yb, xl, -yt, xr, col = as.character(C[, j]),
       #     border = as.character(C[, j]))
@@ -165,6 +173,57 @@ colored_dots<-function (colors, dend, rowLabels = NULL, cex.rowLabels = 0.9,
                                                              (j) * y_scale + y_shift), cex = cex.rowLabels)
       }
     }
+
+
+
+
+
+    else if (circ) {
+      #rect(-yb, xl, -yt, xr, col = as.character(C[, j]),
+      #     border = as.character(C[, j]))
+
+
+      yb <<-yb/max(yb)
+      yt  <<-yt/max(yt)
+      xl  <<-xl/max(xl)
+      xr <<-xr/max(xr)
+
+      #C<-as_tibble(C)
+      ccc<<-C
+      points((-yb+(-yt))/2,(xl+xr)/2,pch=19,col = as.character(C[, j]))
+
+
+      par(srt = 90)
+      if (is.null(rowLabels)) {
+        s <- as.character(j)
+        text(s, pos = 1, offset = 0.5, y = charHeight *
+               text_shift - rotated_str_dim(s)[2]/2, x = -(ystep *
+                                                             (j) * y_scale + y_shift), cex = cex.rowLabels)
+      }
+      else {
+        s <- rowLabels[j]
+        text(s, pos = 1, offset = 0.5, y = charHeight *
+               text_shift - rotated_str_dim(s)[2]/2, x = -(ystep *
+                                                             (j) * y_scale + y_shift), cex = cex.rowLabels)
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     else {
       #rect(xl, yb, xr, yt, col = as.character(C[, j]),
       #    border = as.character(C[, j]))
