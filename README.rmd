@@ -34,28 +34,20 @@ source('~/Documents/GitHub/DendrogramAndDots/R/colored_Dots.R', echo=TRUE)
 ```
 
 
-need to simulate input
-
-
-```{r}
-input<-as_tibble(t(names(groupFile))) 
-names(input)<-names(groupFile)
-
-
-
-```
 
 ```{r}
 
 dendrogramLabels<-as_tibble(labels(dend))
 names(dendrogramLabels)<-'Sample name'
+
+#join but keep prder of dendrogram label
 joinedData<-left_join(dendrogramLabels,groupFile,by="Sample name")
 
 naReplaceValues<-as.list(sapply(names(joinedData),function(x)paste0("Missing ",x)))
 
 joinedData<-joinedData %>%  replace_na(replace=naReplaceValues)
 
-colsel<-'Treatment'
+colsel<-'Sample_type_2'
 
 small<-bind_cols(joinedData[,1],joinedData[colsel])
 
@@ -79,6 +71,16 @@ for(x in 1:length(bigList)){
 
 
 ```
+
+
+
+```{r}
+a<-which(bigList$Marine_water$Sample_type_2 == "#000000")
+b<-joinedData[a,]
+```
+
+
+
 
 Now we we have a list. Each list item represents a group/column from excel table.
 These are associated to the entire dendrogram, by label and are in the same order as the dendrogram from top to bottom.
@@ -109,14 +111,14 @@ The below chunk will only run when the rmd file is run with R (won't work if vie
 
 
 
-```{r,fig.height=50}
+```{r,fig.height=175}
 
-    par(mar = c(8,8,8,25))
+    par(mar = c(8,3,8,25))
 
     plot(dend,horiz=T)
     
     colored_dots(bigMatrix, dend,
-         rowLabels = names(bigMatrix),horiz=T) 
+         rowLabels = names(bigMatrix),horiz=T,sort_by_labels_order = FALSE) 
 
     
     
