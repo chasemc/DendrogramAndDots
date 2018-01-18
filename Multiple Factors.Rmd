@@ -92,6 +92,13 @@ biggerListunlisted<-unlist(biggerList,recursive = F)
 ```
 
 
+```{r}
+b<-biggerListunlisted
+c <- b %>% map(as.data.frame)
+c %>% reduce(., merge, by = 2, all = TRUE)
+d<-c %>% reduce( merge, by = "Sample name", all = TRUE)
+names(d)<-c("Sample_ID",names(c))
+```
 
 
 
