@@ -30,7 +30,7 @@ groupFile<-read_csv("data/b.csv")
 
 Load colored_Dots.R function
 ```{r,include=FALSE}
-source('~/Documents/GitHub/DendrogramAndDots/R/colored_Dots.R', echo=TRUE)
+source('R/colored_Dots.R', echo=TRUE)
 ```
 
 

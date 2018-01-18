@@ -135,10 +135,10 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 3,sediment,116G-1,NZSGF,heat_shock,Freshwater
 3,sediment,116G-2,ISP2F50,heat_shock,Freshwater
 3,sediment,116G-3,ISP2F50,heat_shock,Freshwater
-3,sediment,116G-4,a1F50,heat_shock,Freshwater
-3,sediment,116G-5,a1F50,heat_shock,Freshwater
-3,sediment,116G-6,a1F50,heat_shock,Freshwater
-3,sediment,116G-7,a1F50,heat_shock,Freshwater
+3,sediment,116G-4,A1F50,heat_shock,Freshwater
+3,sediment,116G-5,A1F50,heat_shock,Freshwater
+3,sediment,116G-6,A1F50,heat_shock,Freshwater
+3,sediment,116G-7,A1F50,heat_shock,Freshwater
 3,sediment,116G-8-Bacillus sp.,LWA,heat_shock,Freshwater
 3,sediment,116H-1,ISP2F50,heat_shock,Freshwater
 3,sediment,116H-2,ISP2F50,heat_shock,Freshwater
@@ -481,38 +481,38 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 6,sediment,119A-52,LWA,no_heat_shock,terrestrial
 6,sediment,119A-53,LWA,no_heat_shock,terrestrial
 6,sediment,119A-54,LWA,no_heat_shock,terrestrial
-6,sediment,119A-55,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-56,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-57,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-58,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-59,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-60,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-61,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-62,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-63,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-64,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-65,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-66,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-67,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-68,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-69,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-70,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-71,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-72,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-73,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-74-Deefgea sp.,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-75,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-76,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-77,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-78,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-79-Deefgea sp.,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-80,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-81,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-82-Yersinia sp.,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-83,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-84,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-85,CHITIN,no_heat_shock,terrestrial
-6,sediment,119A-86,CHITIN,no_heat_shock,terrestrial
+6,sediment,119A-55,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-56,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-57,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-58,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-59,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-60,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-61,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-62,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-63,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-64,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-65,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-66,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-67,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-68,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-69,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-70,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-71,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-72,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-73,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-74-Deefgea sp.,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-75,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-76,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-77,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-78,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-79-Deefgea sp.,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-80,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-81,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-82-Yersinia sp.,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-83,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-84,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-85,Chitin,no_heat_shock,terrestrial
+6,sediment,119A-86,Chitin,no_heat_shock,terrestrial
 7,sediment,120A-1,ISP2F50,no_heat_shock,terrestrial
 7,sediment,120A-2,ISP2F50,no_heat_shock,terrestrial
 7,sediment,120A-3,ISP2F50,no_heat_shock,terrestrial
@@ -541,35 +541,35 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 7,sediment,120A-26,LWA,no_heat_shock,terrestrial
 7,sediment,120A-27,LWA,no_heat_shock,terrestrial
 7,sediment,120A-28,LWA,no_heat_shock,terrestrial
-7,sediment,120A-29,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-30,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-31,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-32,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-33,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-34,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-35,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-36,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-37,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-38,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-39,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-40,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-41,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-42,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-43,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-44,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-45,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-46,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-47,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-48,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-49,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-50,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-51,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-52,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-53,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-54,CHITIN,no_heat_shock,terrestrial
-7,sediment,120A-55,CHITIN,no_heat_shock,terrestrial
+7,sediment,120A-29,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-30,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-31,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-32,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-33,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-34,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-35,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-36,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-37,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-38,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-39,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-40,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-41,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-42,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-43,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-44,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-45,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-46,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-47,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-48,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-49,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-50,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-51,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-52,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-53,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-54,Chitin,no_heat_shock,terrestrial
+7,sediment,120A-55,Chitin,no_heat_shock,terrestrial
 8,sediment,121A-1,Chitin,no_heat_shock,terrestrial
-8,sediment,121A-2,chitin,no_heat_shock,terrestrial
+8,sediment,121A-2,Chitin,no_heat_shock,terrestrial
 8,sediment,121A-3,Chitin,no_heat_shock,terrestrial
 8,sediment,121A-4,Chitin,no_heat_shock,terrestrial
 8,sediment,121A-5,Chitin,no_heat_shock,terrestrial
@@ -588,7 +588,7 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 8,sediment,121A-18,Chitin,no_heat_shock,terrestrial
 8,sediment,121A-19-Microbacterium phyllosphaerae,Chitin,no_heat_shock,terrestrial
 8,sediment,121A-20,Chitin,no_heat_shock,terrestrial
-8,sediment,121A-21,chitin,no_heat_shock,terrestrial
+8,sediment,121A-21,Chitin,no_heat_shock,terrestrial
 9,clay,122A-1,NZSGF,no_heat_shock,terrestrial
 9,clay,122A-2,NZSGF,no_heat_shock,terrestrial
 9,clay,122A-3,A1F50,no_heat_shock,terrestrial
@@ -690,68 +690,68 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 10,sediment,123A-31,A1F50,no_heat_shock,Freshwater
 10,sediment,123A-32,A1F50,no_heat_shock,Freshwater
 10,sediment,123A-33,A1F50,no_heat_shock,Freshwater
-10,sediment,123A-34,chitin,no_heat_shock,Freshwater
-10,sediment,123A-35,chitin,no_heat_shock,Freshwater
-10,sediment,123A-36,chitin,no_heat_shock,Freshwater
-10,sediment,123A-37,chitin,no_heat_shock,Freshwater
-10,sediment,123A-38,chitin,no_heat_shock,Freshwater
-10,sediment,123A-39,chitin,no_heat_shock,Freshwater
-10,sediment,123A-40,chitin,no_heat_shock,Freshwater
-10,sediment,123A-41,chitin,no_heat_shock,Freshwater
-10,sediment,123A-42,chitin,no_heat_shock,Freshwater
-10,sediment,123A-43,chitin,no_heat_shock,Freshwater
-10,sediment,123A-44,chitin,no_heat_shock,Freshwater
-10,sediment,123A-45,chitin,no_heat_shock,Freshwater
-10,sediment,123A-46,chitin,no_heat_shock,Freshwater
-10,sediment,123A-47,chitin,no_heat_shock,Freshwater
-10,sediment,123A-48,chitin,no_heat_shock,Freshwater
-10,sediment,123A-49,chitin,no_heat_shock,Freshwater
-10,sediment,123A-50-Bacillus simplex,chitin,no_heat_shock,Freshwater
-10,sediment,123A-51,chitin,no_heat_shock,Freshwater
-10,sediment,123A-52,chitin,no_heat_shock,Freshwater
-10,sediment,123A-53,chitin,no_heat_shock,Freshwater
-10,sediment,123A-54,chitin,no_heat_shock,Freshwater
-10,sediment,123A-55,chitin,no_heat_shock,Freshwater
-10,sediment,123A-56,lwa,no_heat_shock,Freshwater
-10,sediment,123A-57,lwa,no_heat_shock,Freshwater
-10,sediment,123A-58,lwa,no_heat_shock,Freshwater
-10,sediment,123A-59,lwa,no_heat_shock,Freshwater
-10,sediment,123A-60,lwa,no_heat_shock,Freshwater
-10,sediment,123A-61,lwa,no_heat_shock,Freshwater
-10,sediment,123A-62,lwa,no_heat_shock,Freshwater
-10,sediment,123A-63,lwa,no_heat_shock,Freshwater
-10,sediment,123A-64,lwa,no_heat_shock,Freshwater
-10,sediment,123A-65,lwa,no_heat_shock,Freshwater
-10,sediment,123A-66,lwa,no_heat_shock,Freshwater
-10,sediment,123A-67-Agrococcus sp.,lwa,no_heat_shock,Freshwater
-10,sediment,123A-68,lwa,no_heat_shock,Freshwater
-10,sediment,123A-69,lwa,no_heat_shock,Freshwater
-10,sediment,123A-70,lwa,no_heat_shock,Freshwater
-10,sediment,123A-71,lwa,no_heat_shock,Freshwater
-10,sediment,123A-72,lwa,no_heat_shock,Freshwater
-10,sediment,123A-73-Agrococcus sp.,lwa,no_heat_shock,Freshwater
-10,sediment,123A-74,lwa,no_heat_shock,Freshwater
-10,sediment,123A-75,lwa,no_heat_shock,Freshwater
-10,sediment,123A-76,lwa,no_heat_shock,Freshwater
-10,sediment,123A-77,lwa,no_heat_shock,Freshwater
-10,sediment,123A-78,lwa,no_heat_shock,Freshwater
-10,sediment,123A-79,lwa,no_heat_shock,Freshwater
-10,sediment,123A-80,lwa,no_heat_shock,Freshwater
-10,sediment,123A-81,lwa,no_heat_shock,Freshwater
-10,sediment,123A-82-Dermacoccus sp.,lwa,no_heat_shock,Freshwater
-10,sediment,123A-83,lwa,no_heat_shock,Freshwater
-10,sediment,123A-84,lwa,no_heat_shock,Freshwater
-10,sediment,123A-85,lwa,no_heat_shock,Freshwater
-10,sediment,123A-86,lwa,no_heat_shock,Freshwater
-10,sediment,123A-87.-Curvibacter sp,lwa,no_heat_shock,Freshwater
-10,sediment,123A-88,lwa,no_heat_shock,Freshwater
-10,sediment,123A-89,lwa,no_heat_shock,Freshwater
-10,sediment,123A-90,lwa,no_heat_shock,Freshwater
-10,sediment,123A-91,lwa,no_heat_shock,Freshwater
-10,sediment,123A-92,lwa,no_heat_shock,Freshwater
-10,sediment,123A-93,lwa,no_heat_shock,Freshwater
-10,sediment,123A-94,lwa,no_heat_shock,Freshwater
-10,sediment,123A-95-Agrococcus sp.,lwa,no_heat_shock,Freshwater
+10,sediment,123A-34,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-35,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-36,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-37,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-38,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-39,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-40,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-41,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-42,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-43,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-44,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-45,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-46,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-47,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-48,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-49,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-50-Bacillus simplex,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-51,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-52,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-53,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-54,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-55,Chitin,no_heat_shock,Freshwater
+10,sediment,123A-56,LWA,no_heat_shock,Freshwater
+10,sediment,123A-57,LWA,no_heat_shock,Freshwater
+10,sediment,123A-58,LWA,no_heat_shock,Freshwater
+10,sediment,123A-59,LWA,no_heat_shock,Freshwater
+10,sediment,123A-60,LWA,no_heat_shock,Freshwater
+10,sediment,123A-61,LWA,no_heat_shock,Freshwater
+10,sediment,123A-62,LWA,no_heat_shock,Freshwater
+10,sediment,123A-63,LWA,no_heat_shock,Freshwater
+10,sediment,123A-64,LWA,no_heat_shock,Freshwater
+10,sediment,123A-65,LWA,no_heat_shock,Freshwater
+10,sediment,123A-66,LWA,no_heat_shock,Freshwater
+10,sediment,123A-67-Agrococcus sp.,LWA,no_heat_shock,Freshwater
+10,sediment,123A-68,LWA,no_heat_shock,Freshwater
+10,sediment,123A-69,LWA,no_heat_shock,Freshwater
+10,sediment,123A-70,LWA,no_heat_shock,Freshwater
+10,sediment,123A-71,LWA,no_heat_shock,Freshwater
+10,sediment,123A-72,LWA,no_heat_shock,Freshwater
+10,sediment,123A-73-Agrococcus sp.,LWA,no_heat_shock,Freshwater
+10,sediment,123A-74,LWA,no_heat_shock,Freshwater
+10,sediment,123A-75,LWA,no_heat_shock,Freshwater
+10,sediment,123A-76,LWA,no_heat_shock,Freshwater
+10,sediment,123A-77,LWA,no_heat_shock,Freshwater
+10,sediment,123A-78,LWA,no_heat_shock,Freshwater
+10,sediment,123A-79,LWA,no_heat_shock,Freshwater
+10,sediment,123A-80,LWA,no_heat_shock,Freshwater
+10,sediment,123A-81,LWA,no_heat_shock,Freshwater
+10,sediment,123A-82-Dermacoccus sp.,LWA,no_heat_shock,Freshwater
+10,sediment,123A-83,LWA,no_heat_shock,Freshwater
+10,sediment,123A-84,LWA,no_heat_shock,Freshwater
+10,sediment,123A-85,LWA,no_heat_shock,Freshwater
+10,sediment,123A-86,LWA,no_heat_shock,Freshwater
+10,sediment,123A-87.-Curvibacter sp,LWA,no_heat_shock,Freshwater
+10,sediment,123A-88,LWA,no_heat_shock,Freshwater
+10,sediment,123A-89,LWA,no_heat_shock,Freshwater
+10,sediment,123A-90,LWA,no_heat_shock,Freshwater
+10,sediment,123A-91,LWA,no_heat_shock,Freshwater
+10,sediment,123A-92,LWA,no_heat_shock,Freshwater
+10,sediment,123A-93,LWA,no_heat_shock,Freshwater
+10,sediment,123A-94,LWA,no_heat_shock,Freshwater
+10,sediment,123A-95-Agrococcus sp.,LWA,no_heat_shock,Freshwater
 12,liquid,125A-1,NZSGF,no_heat_shock,terrestrial
 12,liquid,125A-2-Sporosarcina aquimarina,ISP2F50,no_heat_shock,terrestrial
 12,liquid,125A-3,A1F50,no_heat_shock,terrestrial
@@ -974,16 +974,16 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 21,sediment,134A-8,NZSGM,heat_shock,Marine_water
 21,sediment,134A-9,NZSGM,heat_shock,Marine_water
 21,sediment,134A-10,NZSGM,heat_shock,Marine_water
-21,sediment,134A-11,chitin,heat_shock,Marine_water
-21,sediment,134A-12,chitin,heat_shock,Marine_water
-21,sediment,134A-13,chitin,heat_shock,Marine_water
-21,sediment,134A-14,chitin,heat_shock,Marine_water
-21,sediment,134A-15,chitin,heat_shock,Marine_water
-21,sediment,134A-16,chitin,heat_shock,Marine_water
-21,sediment,134A-17-Bacillus sp.,chitin,heat_shock,Marine_water
-21,sediment,134A-18,chitin,heat_shock,Marine_water
-21,sediment,134A-19,chitin,heat_shock,Marine_water
-21,sediment,134A-20,chitin,heat_shock,Marine_water
+21,sediment,134A-11,Chitin,heat_shock,Marine_water
+21,sediment,134A-12,Chitin,heat_shock,Marine_water
+21,sediment,134A-13,Chitin,heat_shock,Marine_water
+21,sediment,134A-14,Chitin,heat_shock,Marine_water
+21,sediment,134A-15,Chitin,heat_shock,Marine_water
+21,sediment,134A-16,Chitin,heat_shock,Marine_water
+21,sediment,134A-17-Bacillus sp.,Chitin,heat_shock,Marine_water
+21,sediment,134A-18,Chitin,heat_shock,Marine_water
+21,sediment,134A-19,Chitin,heat_shock,Marine_water
+21,sediment,134A-20,Chitin,heat_shock,Marine_water
 21,sediment,134A-21,ISP2M50,heat_shock,Marine_water
 21,sediment,134A-22-Paenibacillus sp.,ISP2M50,heat_shock,Marine_water
 21,sediment,134A-23,ISP2M50,heat_shock,Marine_water
@@ -1088,9 +1088,9 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 22,sediment,135A-37,SWA,heat_shock,Marine_water
 22,sediment,135A-38,ISP2M50,heat_shock,Marine_water
 22,sediment,135A-39,ISP2M50,heat_shock,Marine_water
-22,sediment,135A-40,CHITIN,heat_shock,Marine_water
-22,sediment,135A-41,CHITIN,heat_shock,Marine_water
-22,sediment,135A-42,CHITIN,heat_shock,Marine_water
+22,sediment,135A-40,Chitin,heat_shock,Marine_water
+22,sediment,135A-41,Chitin,heat_shock,Marine_water
+22,sediment,135A-42,Chitin,heat_shock,Marine_water
 23,sediment,136A-1,ISP2M50,no_heat_shock,Marine_water
 23,sediment,136A-2,ISP2M50,no_heat_shock,Marine_water
 23,sediment,136A-3,ISP2M50,no_heat_shock,Marine_water
@@ -1166,39 +1166,39 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 23,sediment,136A-73,SWA,no_heat_shock,Marine_water
 23,sediment,136A-74-Cellulophaga sp.,SWA,no_heat_shock,Marine_water
 23,sediment,136A-75,SWA,no_heat_shock,Marine_water
-23,sediment,136A-76,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-77,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-78,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-79,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-80,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-81,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-82-Shewanella sp.,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-83,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-84,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-85,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-86,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-87-Shewanella sp.,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-88-Shewanella sp.,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-89,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-90,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-91-Micrococcus sp.,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-92,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-93,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-94,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-95,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-96-Salinicoccus sp.,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-97,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-98,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-99,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-100,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-101,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-102,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-103,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-104,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-105,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-106,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-107,CHITIN,no_heat_shock,Marine_water
-23,sediment,136A-108,CHITIN,no_heat_shock,Marine_water
+23,sediment,136A-76,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-77,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-78,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-79,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-80,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-81,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-82-Shewanella sp.,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-83,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-84,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-85,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-86,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-87-Shewanella sp.,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-88-Shewanella sp.,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-89,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-90,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-91-Micrococcus sp.,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-92,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-93,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-94,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-95,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-96-Salinicoccus sp.,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-97,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-98,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-99,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-100,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-101,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-102,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-103,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-104,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-105,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-106,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-107,Chitin,no_heat_shock,Marine_water
+23,sediment,136A-108,Chitin,no_heat_shock,Marine_water
 24,sponge,137A-1,NZSGM,heat_shock,Marine_water
 24,sponge,137A-2,SWA,heat_shock,Marine_water
 24,sponge,137A-3,SWA,heat_shock,Marine_water
@@ -1218,15 +1218,15 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 24,sponge,137A-17,SWA,heat_shock,Marine_water
 24,sponge,137A-18,SWA,heat_shock,Marine_water
 24,sponge,137A-19,SWA,heat_shock,Marine_water
-24,sponge,137A-20,chitin,heat_shock,Marine_water
-24,sponge,137A-21,chitin,heat_shock,Marine_water
-24,sponge,137A-22,chitin,heat_shock,Marine_water
-24,sponge,137A-23,chitin,heat_shock,Marine_water
-24,sponge,137A-24,chitin,heat_shock,Marine_water
-24,sponge,137A-25,chitin,heat_shock,Marine_water
-24,sponge,137A-26,chitin,heat_shock,Marine_water
-24,sponge,137A-27,chitin,heat_shock,Marine_water
-24,sponge,137A-28,chitin,heat_shock,Marine_water
+24,sponge,137A-20,Chitin,heat_shock,Marine_water
+24,sponge,137A-21,Chitin,heat_shock,Marine_water
+24,sponge,137A-22,Chitin,heat_shock,Marine_water
+24,sponge,137A-23,Chitin,heat_shock,Marine_water
+24,sponge,137A-24,Chitin,heat_shock,Marine_water
+24,sponge,137A-25,Chitin,heat_shock,Marine_water
+24,sponge,137A-26,Chitin,heat_shock,Marine_water
+24,sponge,137A-27,Chitin,heat_shock,Marine_water
+24,sponge,137A-28,Chitin,heat_shock,Marine_water
 24,sponge,137B-1-Rhodococcus fascians,A1M50,heat_shock,Marine_water
 24,sponge,137B-2,A1M50,heat_shock,Marine_water
 24,sponge,137B-3,A1M50,heat_shock,Marine_water
@@ -1835,9 +1835,9 @@ Sample_location,Sample_type_1,Sample name,Media_type,Treatment,Sample_type_2
 28,algae,141BF-44,LWA,heat_shock,Freshwater
 28,algae,141BF-45,LWA,heat_shock,Freshwater
 29,sediment,142AM-1,NZSGM,heat_shock,Marine_water
-29,sediment,142AF-1,CHITIN,heat_shock,Freshwater
-29,sediment,142AF-2,CHITIN,heat_shock,Freshwater
-29,sediment,142AF-3,CHITIN,heat_shock,Freshwater
+29,sediment,142AF-1,Chitin,heat_shock,Freshwater
+29,sediment,142AF-2,Chitin,heat_shock,Freshwater
+29,sediment,142AF-3,Chitin,heat_shock,Freshwater
 29,sediment,142AF-4,A1F50,heat_shock,Freshwater
 29,sediment,142AF-5,A1F50,heat_shock,Freshwater
 29,sediment,142AF-6,A1F50,heat_shock,Freshwater

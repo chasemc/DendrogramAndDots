@@ -30,7 +30,7 @@ groupFile<-read_csv("data/b.csv")
 
 Load colored_Dots.R function
 ```{r,include=FALSE}
-source('~/Documents/GitHub/DendrogramAndDots/R/colored_Dots.R', echo=TRUE)
+source('R/colored_Dots.R', echo=TRUE)
 ```
 
 
@@ -82,23 +82,9 @@ biggerList<-c(biggerList,bigList)
 
 
 ```{r}
-a<-which(bigList$Marine_water$Sample_type_2 == "#000000")
-b<-joinedData[a,]
-```
-
-
-```{r}
 biggerListunlisted<-unlist(biggerList,recursive = F)
 ```
 
-
-```{r}
-b<-biggerListunlisted
-c <- b %>% map(as.data.frame)
-c %>% reduce(., merge, by = 2, all = TRUE)
-d<-c %>% reduce( merge, by = "Sample name", all = TRUE)
-names(d)<-c("Sample_ID",names(c))
-```
 
 
 
@@ -114,34 +100,29 @@ These are associated to the entire dendrogram, by label and are in the same orde
 
 
 
-```{r}
-bigMatrix<-NULL
-for (i in 1:length(bigList)){
-    bigMatrix<-bind_cols(bigMatrix,bigList[[i]][,2])}
 
-names(bigMatrix)<-names(bigList)
 
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+b<-biggerListunlisted
+c <- b %>% map(as.data.frame)
+
+d<-c %>% reduce( merge, by = "Sample name", all = TRUE)
+names(d)<-c("Sample_ID",names(c))
+bigMatrix<-d[,-1]
 ```
 
 
 
-The below chunk will only run when the rmd file is run with R (won't work if viewing static html).
 
+```{r fig.height=175, fig.width=8.5}
 
-
-
-
-
-
-
-```{r,fig.height=175}
-
-    par(mar = c(8,3,8,25))
+    par(mar = c(8,3,8,35))
 
     plot(dend,horiz=T)
     
     colored_dots(bigMatrix, dend,
-         rowLabels = names(bigMatrix),horiz=T,sort_by_labels_order = FALSE) 
+         rowLabels = names(bigMatrix),horiz=T,sort_by_labels_order = FALSE,cex.rowLabels = .8) 
 
     
     
