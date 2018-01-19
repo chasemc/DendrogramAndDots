@@ -104,6 +104,30 @@ The below chunk will only run when the rmd file is run with R (won't work if vie
 
 
 
+```{r}
+colrs<-c("#e41a1c",
+"#377eb8",
+"#4daf4a",
+"#984ea3",
+"#ff7f00",
+"#ffff33",
+"#a65628",
+"#f781bf",
+"#999999")
+
+
+numiter<- if(length(colrs) < length(bigMatrix)){
+  length(colrs)
+} length(bigMatrix)
+
+for (i in 1:numiter){
+  
+   
+  
+bigMatrix[,i][which(bigMatrix[,i]=="#000000"),]<-colrs[[i]]}
+
+
+```
 
 
 
@@ -121,8 +145,5 @@ The below chunk will only run when the rmd file is run with R (won't work if vie
   
   
 ```
-
-
-
 
 
